@@ -1,5 +1,5 @@
 {
-  "name": "rbx-uuid-transform",
+  "name": "@rbxts/uuid-transform",
   "version": "1.0.0",
   "description": "A transformer for roblox-ts to change Enum values to UUIDs during compile time",
   "main": "out/index.js",
@@ -19,6 +19,11 @@
     "url": "https://github.com/PrintedScript/rbxts-uuid-transform.git"
   },
   "keywords": [
-    "roblox-ts"
-  ]
+    "roblox",
+    "roblox-ts",
+    "transformer"
+  ],
+  "publishConfig": {
+      "access": "public"
+  }
 }

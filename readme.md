@@ -1,12 +1,12 @@
-# rbxts-uuid-transform
+# @rbxts/uuid-transform
 #### Last updated for roblox-ts V3.0.0
-A really simple compile-time UUID generator for [roblox-ts](https://roblox-ts.com/), useful for obfuscating internal names like network remotes to protect them from malicious actors. This is meant as a partial replacement for [rbxts-transform-guid](https://github.com/roblox-aurora/rbxts-transform-guid)
+A really simple compile-time UUID generator for [roblox-ts](https://roblox-ts.com/), useful for obfuscating internal names like network remotes to protect them from malicious actors. This is meant as a partial drop-in replacement for [rbxts-transform-guid](https://github.com/roblox-aurora/rbxts-transform-guid)
 
 ## Installation
 
-Add `rbxts-uuid-transform` to your project dependencies
+Add `@rbxts/uuid-transform` to your project dependencies
 ```
-npm install rbxts-uuid-transform
+npm install @rbxts/uuid-transform
 ```
 
 Modify `tsconfig.json` to add the transformer to your roblox-ts plugins
@@ -17,7 +17,7 @@ Modify `tsconfig.json` to add the transformer to your roblox-ts plugins
         "plugins": [
             // ...
             {
-                "transform": "rbxts-uuid-transform"
+                "transform": "@rbxts/uuid-transform"
             }
         ]
     }
