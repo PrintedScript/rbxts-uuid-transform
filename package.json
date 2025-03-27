@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/uuid-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A transformer for roblox-ts to change Enum values to UUIDs during compile time",
   "main": "out/index.js",
   "scripts": {
